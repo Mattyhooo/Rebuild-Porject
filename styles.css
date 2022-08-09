@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.website__container {
+  padding: 32px;
+}
+/* NAV BAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__link {
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e4a68;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav__link:hover {
+  color: #6415ff;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 6px;
+}
+
+.nav__link__log--in {
+  margin-left: 24px;
+}
+
+.nav__link--primary {
+  background-color: #6415ff;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 50px;
+}
+
+.nav__link--primary:hover {
+  background-color: #5209e2;
+  color: white;
+  text-decoration: none;
+}
+
+.logo__image {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.company__logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #2e4a68;
+  margin: 8px 0;
+  padding: 0 0 4px;
+}
+
+.logo__div {
+  display: flex;
+  align-items: center;
+}
