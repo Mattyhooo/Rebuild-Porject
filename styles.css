@@ -120,9 +120,10 @@ img {
   display: flex;
   margin: 0 auto;
   align-items: center;
-  padding: 96px 0;
+  padding: 6rem 0;
   text-align: left;
   height: 70vh;
+  min-height: 85vh;
 }
 
 .heading {
@@ -133,6 +134,11 @@ img {
   text-align: left;
 }
 
+.hero__image {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
 .hero__image__wrapper {
   width: 60%;
 }
@@ -143,13 +149,23 @@ img {
 
 .heading__input {
   display: flex;
-  flex-direction: row;
-  padding: 2px;
+  max-width: 75%;
+  padding: 4px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 2px solid #6415ff;
+}
+
+.heading__input:hover {
+  border: 2px solid #ebedf0;
+  transition: all 300ms ease;
 }
 
 input {
-  flex-grow: 2;
-  border: 2px solid #6415ff;
+  width: 100%;
+  border: none;
   border-radius: 50px;
   height: 48px;
   font-weight: 500;
@@ -166,10 +182,34 @@ input:focus {
 
 button {
   border: none;
+  height: 48px;
+  width: 224px;
   border-radius: 50px;
   padding: 12px 24px;
+  cursor: pointer;
   background: #6415ff;
   color: white;
   font-weight: 700;
-  z-index: -100;
+}
+
+button:hover {
+  background-color: #5209e2;
+  transform: scale(0.98);
+  transition: all 300 ease;
+}
+
+.heading__para--logos {
+  margin-top: 5rem;
+}
+
+.heading__para--logos p {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #a0aec0;
+}
+
+.clients {
+  margin-top: 16px;
+  padding: 0 92px 0 0;
+  filter: grayscale(1) invert(0.9);
 }
