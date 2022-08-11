@@ -23,6 +23,7 @@ h1 {
 
 html {
   scroll-behavior: smooth;
+  line-height: 1.5;
 }
 
 .row {
@@ -120,7 +121,7 @@ img {
   display: flex;
   margin: 0 auto;
   align-items: center;
-  padding: 6rem 0;
+  padding: 4rem 0;
   text-align: left;
   height: 70vh;
   min-height: 85vh;
@@ -137,7 +138,7 @@ img {
 .hero__image {
   width: 100%;
   height: 100%;
-  min-height: 600px;
+  min-height: 500px;
 }
 .hero__image__wrapper {
   width: 60%;
@@ -212,4 +213,103 @@ button:hover {
   margin-top: 16px;
   padding: 0 92px 0 0;
   filter: grayscale(1) invert(0.9);
+}
+
+/* FEATURES */
+
+#features {
+  height: 1500px;
+}
+.heading__title {
+  font-size: 48px;
+  color: #243e63;
+  margin-top: 1rem;
+}
+
+.features__wrapper {
+  text-align: center;
+  padding-top: 4rem;
+  margin: 0 72px;
+}
+
+.heading__subtitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  color: #6415ff;
+}
+
+.features__para {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.625;
+  color: #7c8ba1;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  max-width: 36rem;
+}
+
+.spacer {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.feature {
+  margin: 0 16px;
+  padding: 32px 32px;
+  display: flex;
+  text-align: left;
+  max-width: 24rem;
+}
+
+.feature__row {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature__image--container {
+  height: 66px;
+  min-width: 66px;
+  border: 1px solid #a0aec081;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__image {
+  width: 24px;
+  height: 24px;
+}
+
+.features__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: calc(100% / 3); */
+}
+
+.feature__text {
+  padding: 8px 0 0 16px;
+}
+
+.feature__paragraph {
+  margin-top: 16px;
+  line-height: 2;
+  font-weight: 500;
+  color: #7c8ba1;
+}
+
+.features__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature__title {
+  font-size: 24px;
+  color: #243e63;
 }
