@@ -28,7 +28,7 @@ html {
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -217,13 +217,13 @@ button:hover {
 
 /* FEATURES */
 
-#features {
-  height: 1500px;
-}
 .heading__title {
   font-size: 48px;
   color: #243e63;
   margin-top: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  line-height: 1.25;
 }
 
 .features__wrapper {
@@ -257,14 +257,14 @@ button:hover {
 
 .feature {
   margin: 0 16px;
-  padding: 32px 32px;
+  padding: 32px 16px;
   display: flex;
   text-align: left;
   max-width: 24rem;
 }
 
 .feature__row {
-  max-width: 1600px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -289,7 +289,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: calc(100% / 3); */
+  width: calc(100% / 3);
 }
 
 .feature__text {
@@ -307,9 +307,34 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 4rem;
 }
 
 .feature__title {
   font-size: 24px;
   color: #243e63;
 }
+
+/* QUALITY WORK */
+
+.quality__work--wrapper {
+  display: flex;
+  padding-top: 4rem;
+}
+
+.quality__work--info {
+  width: 50%;
+}
+
+.quality__image--fig {
+  width: 50%;
+}
+
+.quality__para {
+  margin-top: 16px;
+  line-height: 2;
+  font-weight: 500;
+  color: #7c8ba1;
+}
+
+/* quality work wrapper needs a div inside it to style the info div */
